@@ -1,0 +1,32 @@
+.LastViewedProductMain {
+  max-width: 1500px;
+  margin-inline: auto;
+  padding: 20px 25px;
+  /* height: 500px; */
+}
+
+.featureMainTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Swiper Js Code */
+
+.swiper {
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: red;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+}
+
+.swiper-slide img {
+  display: block;
+}

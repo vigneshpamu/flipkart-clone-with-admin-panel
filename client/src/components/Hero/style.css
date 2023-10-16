@@ -1,0 +1,333 @@
+.mainHeroFullWidth {
+  /* width: 100vw; */
+  /* border: 1px solid red; */
+  background-color: rgba(247, 247, 247, 0.669);
+  /* height: 200vh; */
+}
+
+.mainHeroContent {
+  /* border: 1px solid palegreen; */
+  display: grid;
+  grid-template-columns: 2.2fr 3fr;
+  padding: 25px;
+  gap: 20px;
+  max-width: 1500px;
+}
+
+.heroMainLeft {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.iphoneMainHero {
+  height: 330px;
+  background-color: rgb(203, 243, 254);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.tvMainHero {
+  height: 330px;
+  background-color: rgb(229, 215, 252);
+  border-radius: 8px;
+}
+
+.cycleMainHero {
+  height: 100%;
+  background-color: rgb(254, 224, 227);
+  border-radius: 8px;
+}
+.scaleHeroHover {
+  transition: ease-in-out 0.35s;
+  cursor: pointer;
+}
+.scaleHeroHover:hover {
+  transform: scale(1.012);
+}
+.mainDiscountHero {
+  /* margin-top: 5px; */
+  padding: 15px 0px 0px 15px;
+}
+
+.iphoneMainDiscount {
+  padding: 5px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(252, 220, 97);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.iphoneMainHero h3 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.iphoneMainHero p {
+  font-weight: 600;
+  color: gray;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+}
+.iphoneMainHeroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iphoneHeroLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buyNowBtnHero {
+  padding: 8px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(30, 144, 213);
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+}
+
+.cutText {
+  text-decoration: line-through;
+}
+.bold {
+  font-weight: 800;
+  color: black;
+  letter-spacing: 0.1px;
+}
+.iphoneHeroRight img {
+  width: 220px;
+}
+.tvMainHero {
+  display: grid;
+  grid-template-columns: 2fr 1.6fr;
+  border-radius: 10px;
+}
+
+.firstSideHeroTv {
+  background-color: rgb(229, 215, 252);
+  border-radius: 20px;
+  position: relative;
+}
+.secondSideHeroTv {
+  background-color: rgb(207, 176, 255);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondSideHeroTv img {
+  width: 100%;
+}
+
+.tvHeroFirst h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tvHeroSecond {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.tvHeroSecond h3 {
+  font-size: 33px;
+  font-weight: 800;
+}
+.tvHeroSecond h3 span {
+  color: rgb(103, 26, 251);
+}
+.tvHeroSecond p {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+}
+
+.tvHeroContentAll {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Cycle */
+.cycleMainHero {
+  position: relative;
+}
+.cycleMainCircle1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: rgb(250, 214, 218);
+  position: absolute;
+  top: 25%;
+  right: 7%;
+  z-index: 0;
+}
+.cycleMainCircle2 {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  background: rgb(250, 214, 218);
+  position: absolute;
+  top: 58%;
+  right: 47%;
+  z-index: 0;
+}
+.cycleHeroImg img {
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+  /* top: 50%; */
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cycleDescHero {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+}
+
+.cycleHeroContent {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cycleTitleName {
+  font-weight: 600;
+  color: gray;
+  letter-spacing: 0.6px;
+  font-size: 27px;
+}
+
+.cycleHeroContent h3 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.redColor {
+  background: red;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1400px) {
+  .mainHeroContent {
+    grid-template-columns: 100%;
+  }
+  .cycleMainHero {
+    height: 500px;
+  }
+  .heroMainLeft {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .iphoneMainHero {
+    margin-bottom: 0px;
+  }
+  .cycleMainHero {
+    height: 450px;
+  }
+  .cycleMainCircle1 {
+    height: 250px;
+    width: 250px;
+    top: 25%;
+    right: 7%;
+    padding: 10px;
+  }
+  .cycleMainCircle2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: rgb(250, 214, 218);
+    position: absolute;
+    top: 40%;
+    right: 30%;
+  }
+  .cycleHeroImg img {
+    width: 550px;
+    top: 10%;
+    left: 70%;
+  }
+}
+@media (max-width: 1042px) {
+  .heroMainLeft {
+    grid-template-columns: 1fr;
+  }
+  .iphoneMainHero {
+    margin-bottom: 0px;
+  }
+  .cycleMainHero {
+    height: 360px;
+  }
+  .cycleMainCircle1 {
+    height: 160px;
+    width: 160px;
+    top: 25%;
+    right: 7%;
+  }
+  .cycleHeroContent {
+    left: 5%;
+  }
+  .cycleMainCircle2 {
+    height: 140px;
+    width: 140px;
+    top: 40%;
+    right: 30%;
+  }
+  .cycleHeroImg img {
+    width: 400px;
+    top: 10%;
+    left: 75%;
+  }
+  .cycleHeroContent h3 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 796px) {
+  .cycleHeroImg img {
+    width: 300px;
+    top: 40%;
+    left: 70%;
+  }
+  .cycleMainCircle1 {
+    height: 160px;
+    width: 160px;
+    top: 25%;
+    right: 7%;
+  }
+  .cycleMainCircle2 {
+    height: 140px;
+    width: 140px;
+    top: 40%;
+    right: 30%;
+  }
+  .cycleHeroContent h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 796px) {
+}

@@ -1,0 +1,97 @@
+.AllLoginItemMain {
+  padding: 15px;
+  width: 100vw;
+  height: 100vh;
+  margin-inline: auto;
+  background-color: rgb(22, 120, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginFormAll {
+  width: 350px;
+  height: 380px;
+  padding: 30px 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.loginFormAll h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+.loginFormAll input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.loginFormAll button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(22, 120, 190);
+  color: white;
+  transition: ease-in-out 0.3s;
+  border-radius: 5px;
+}
+.loginFormAll button:hover {
+  opacity: 0.95;
+}
+
+.loginFormAll button:active {
+  outline: none;
+  transform: scale(0.97);
+}
+.loginFormAll p {
+  margin: 0px;
+}
+
+@media (max-width: 360px) {
+  .loginFormAll {
+    width: 350px;
+    height: 370px;
+    padding: 30px 20px;
+  }
+
+  .loginFormAll h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+  .loginFormAll input {
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid rgb(214, 214, 214);
+  }
+  .loginFormAll button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: rgb(22, 120, 190);
+    color: white;
+    transition: ease-in-out 0.3s;
+    border-radius: 5px;
+  }
+  .loginFormAll button:hover {
+    opacity: 0.95;
+  }
+
+  .loginFormAll button:active {
+    outline: none;
+    transform: scale(0.97);
+  }
+  .loginFormAll p {
+    margin: 0px;
+  }
+}

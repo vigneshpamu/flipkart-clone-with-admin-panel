@@ -1,0 +1,94 @@
+.adminHeroMainHalf {
+  max-width: 100vw;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminHeroLeft {
+  width: 22%;
+  background: rgb(30, 41, 54);
+  padding: 10px 5px 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 25px; */
+  height: calc(100vh - 70px);
+  /* height: 92vw; */
+}
+
+.adminHeroRight {
+  height: 100%;
+  width: 78%;
+}
+.adminProfileData {
+  padding: 10px 15px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background: rgb(55, 64, 80);
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.adminImage img {
+  width: 70px;
+}
+
+.adminContent h3 {
+  font-size: 18px;
+  color: white;
+}
+.adminContent p {
+  color: rgb(200, 200, 200);
+}
+
+.allAdminNavItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.singleDivNavItem {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: ease-in-out 0.1s;
+  cursor: pointer;
+}
+.singleDivNavItem:hover {
+  background: rgba(55, 64, 80, 0.722);
+}
+.singleDivNavItem h2 {
+  font-size: 28px;
+  color: rgb(240, 240, 240);
+}
+.singleDivNavItem p {
+  color: rgb(240, 240, 240);
+  font-size: 18px;
+}
+
+.activeTab {
+  background: rgba(55, 64, 80, 0.722);
+}
+.downsideAdminHero {
+  margin: 15px;
+  height: 150px;
+  background: rgba(55, 64, 80, 0.722);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.downsideAdminHero h2 {
+  font-size: 22px;
+  color: rgb(226, 226, 226);
+}
+
+.mainPaddedAdminRightDiv {
+  padding: 20px;
+}

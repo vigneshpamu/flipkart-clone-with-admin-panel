@@ -1,0 +1,22 @@
+.adminHeaderMain {
+  background-color: #2975f0;
+}
+
+.adminHeaderHalf {
+  max-width: 1600px;
+  margin-inline: auto;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminHeaderLeft h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.adminHeaderRight img {
+  width: 50px;
+}

@@ -1,0 +1,55 @@
+.homeFeatureProductsMain {
+  max-width: 1500px;
+  margin-inline: auto;
+  padding: 20px 25px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featureMainTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+.allUpperFeatureProduct {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.allUpperFeatureProduct::-webkit-scrollbar {
+  display: none;
+}
+
+.singleFeatureProduct {
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  min-width: 250px;
+}
+
+/* .singleFeatureProduct img {
+  width: 140px;
+} */
+.dslr {
+  width: 160px;
+}
+.headphone {
+  width: 140px;
+}
+.bed {
+  width: 230px;
+}
+.laptop {
+  width: 200px;
+}
+.smartwatch {
+  width: 170px;
+}

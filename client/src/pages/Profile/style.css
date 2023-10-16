@@ -1,0 +1,8 @@
+.userProfileMain button {
+  padding: 15px;
+  background: red;
+  color: white;
+  font-size: 25px;
+
+  /* border: 2px solid pink; */
+}

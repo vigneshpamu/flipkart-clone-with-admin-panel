@@ -1,0 +1,20 @@
+.thisIsDemoUL {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.thisIsDemoUL li {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination li {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  border: 1px solid rgb(89, 89, 247);
+}

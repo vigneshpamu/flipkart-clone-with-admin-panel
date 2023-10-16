@@ -1,0 +1,16 @@
+@import url(https://db.onlinewebfonts.com/c/4c1e2c4a8ec30ef2e462af6368444c8f?family=Riona+Sans+W01+Bold+Italic);
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=Nunito&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter Tight';
+}
+p {
+  margin-bottom: 0px;
+}
